@@ -1,0 +1,22 @@
+# Windows
+Thumbs.db
+desktop.ini
+
+# SolidWorks temporary and backup files
+~$*
+*.bak
+*.swp
+*.sldasm~
+*.sldprt~
+
+# Proteus local workspace and backups
+*.workspace
+*.workspace.*
+Project Backups/
+
+# Prevent the oversized full-project backup from being tracked
+archive/vision-guided-5dof-robot-manipulator.zip
+
+# Python generated files
+__pycache__/
+*.pyc
